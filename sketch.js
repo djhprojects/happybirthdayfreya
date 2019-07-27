@@ -8,7 +8,7 @@
 
 let data;
 function preload() {
-  data = loadJSON('msg_age.json', () => {}, () => this._decrementPreload());
+  data = loadJSON('msg_age.json');
 }
 
 let x = [];

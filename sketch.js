@@ -8,7 +8,7 @@
 
 let data;
 function preload() {
-  data = loadJSON('msg_age.json');
+  data = loadJSON('msg_image.json');
 }
 
 let x = [];

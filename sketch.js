@@ -9,7 +9,7 @@
 let data;
 
 function preload() {
-  data = loadJSON('codingtrain.json');  
+  data = loadJSON('msg_image.json');  
 }
 
 let x = [];

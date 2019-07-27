@@ -7,9 +7,8 @@
 
 
 let data;
-
 function preload() {
-  data = loadJSON('msg_image.json');  
+  data = loadJSON('msg_image.json', () => {}, () => this._decrementPreload());
 }
 
 let x = [];
